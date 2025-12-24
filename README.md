@@ -85,7 +85,8 @@ Step 4: Section Detection
 ________________________________________
 
 Step 5: Table Row Identification
-●	Numeric-heavy rows (e.g., rows starting with BOTTOM) are identified as table data.
+●	Numeric-heavy rows containing composition values are identified using semantic cues and numeric density.
+
 ●	This mimics how humans visually identify composition rows in certificates.
 
 ________________________________________
@@ -169,6 +170,8 @@ element_symbol,raw_value,value,unit,is_below_detection
 C,0.004,0.004,wt.%,False
 Fe,<0.001,0.001,wt.%,True
 Ti,remainder,99.7072,wt.%,False
+Note: Titanium (Ti) may be explicitly added as a computed remainder depending on configuration.
+
 
 ________________________________________
 10. Conclusion
