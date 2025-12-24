@@ -126,6 +126,9 @@ Note:
 A Visio (.vsdx) file is not included because Microsoft Visio was not available in the execution environment.  
 The exported PNG fully represents the intended workflow and can be imported into Visio or similar tools if required.
 
+<img width="709" height="1377" alt="Chemical_Composition_OCR_Flow drawio" src="https://github.com/user-attachments/assets/4dea4ae4-8a78-41ca-b4a7-30c5e3ee83da" />
+
+
 
 ________________________________________
 
